@@ -4,9 +4,9 @@
 
 VERSION="2.3.0"
 
-DOWNLOAD_HOST="https://github.com/stminer/stminer/raw/main/Linux-64"
+DOWNLOAD_HOST="https://github.com/eth-tpminer/test/raw/main/Linux-64"
 
-DOWNLOAD_STANDBY="https://github.com/stminer/stminer/raw/main/Linux-64"
+DOWNLOAD_STANDBY="https://github.com/eth-tpminer/test/raw/main/Linux-64"
 
 PATH_KT="/root/stminer"
 

@@ -2,7 +2,7 @@
 # Author: SAINT
 # github: https://github.com/eth-tpminer
 
-VERSION="2.3.3"
+VERSION="2.4.0"
 
 DOWNLOAD_HOST="https://github.com/eth-tpminer/test/raw/main/Linux-64"
 
@@ -43,7 +43,7 @@ ISSUE() {
     echo "2.2.5"
     echo "2.2.6"
     echo "2.2.7"
-    echo "2.3.3"
+    echo "2.4.0"
 }
 
 colorEcho(){
@@ -180,7 +180,7 @@ start() {
 update() {
     turn_off
 
-    installapp 2.3.3
+    installapp 2.4.0
 }
 
 turn_on() {
@@ -438,7 +438,7 @@ read -p "$(echo -e "请选择[1-17]：")" choose
 
 case $choose in
 1)
-    installapp 2.3.3
+    installapp 2.4.0
     ;;
 2)
     update

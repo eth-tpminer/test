@@ -2,7 +2,7 @@
 # Author: SAINT
 # github: https://github.com/eth-tpminer/test
 
-VERSION="2.3.0"
+VERSION="2.5.2"
 
 DOWNLOAD_HOST="https://github.com/stminer/stminer/raw/main/Linux-64"
 
@@ -24,26 +24,8 @@ PATH_TURN_ON="/etc/profile.d"
 PATH_TURN_ON_SH="/etc/profile.d/ktm.sh"
 
 ISSUE() {
-    echo "1.0.0"
-    echo "1.1.0"
-    echo "1.1.1"
-    echo "1.1.2"
-    echo "1.1.3"
-    echo "1.1.4"
-    echo "1.1.5"
-    echo "2.0.0"
-    echo "2.0.1"
-    echo "2.1.0"
-    echo "2.1.1"
-    echo "2.2.0"
-    echo "2.2.1"
-    echo "2.2.2"
-    echo "2.2.3"
-    echo "2.2.4"
-    echo "2.2.5"
-    echo "2.2.6"
-    echo "2.2.7"
     echo "2.3.0"
+    echo "2.5.2"
 }
 
 colorEcho(){
@@ -180,7 +162,7 @@ start() {
 update() {
     turn_off
 
-    installapp 2.3.0
+    installapp 2.5.2
 }
 
 turn_on() {
@@ -438,7 +420,7 @@ read -p "$(echo -e "请选择[1-17]：")" choose
 
 case $choose in
 1)
-    installapp 2.3.0
+    installapp 2.5.2
     ;;
 2)
     update
